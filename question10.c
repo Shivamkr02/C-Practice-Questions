@@ -1,3 +1,6 @@
+// Expected output format - "Area of circle is A having the radius R". Replace A with area & R with radius.
+
+
 #include<stdio.h>
 
 int main(){
