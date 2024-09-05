@@ -1,10 +1,18 @@
 #include<stdio.h>
 
 int main(){
-    int a,b;
-    printf("Enter two number: ");
-    scanf("%d%d",&a,&b);
+   int a;
+    printf("Enter the first number: ");
+    scanf("%d",&a);
 
-    printf("a=%d, b=%d",b,a);
+    int b;
+    printf("Enter second number: ");
+    scanf("%d",&b);
+
+    a = a * b;
+    b = a / b;
+    a = a / b;
+
+    printf("First Number: %d \nSecond Number: %d",a,b);
     return 0;
 }
