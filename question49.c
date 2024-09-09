@@ -26,5 +26,9 @@ int main(){
         }
    }
 
+     // Method - 2
+
+   printf(year%100?year%4?"Non Leap year":"Leap Year":year%400?"Non Leap Year":"Leap Year");
+
     return 0;
 }
