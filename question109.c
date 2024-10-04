@@ -9,6 +9,7 @@ int main(){
             if(i<=j){
                 printf("%c ",k);
                 k++;
+            
             }
             else{
                 printf("  ");
