@@ -3,7 +3,6 @@ void sort_array(int a[]);
 int main(){
     int a[]={50,20,30,80,10,40,60,90,100};
     sort_array(a);
-    
     //printf("Sorted Array is : %d",min);
 }
 void sort_array(int a[]){
