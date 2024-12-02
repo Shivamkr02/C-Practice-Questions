@@ -5,9 +5,5 @@ int main(){
         a=(n%10)*100;
         b+=a;
     }
-    
-    
-
     printf("%d",b);
-
 }
