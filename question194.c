@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 
 }
 void update_score_board(int p1,int p2,int result,int score_board[p1][p2]){
