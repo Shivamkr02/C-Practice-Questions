@@ -11,7 +11,6 @@ int main(){
    }
    if(i == 4)
     printf("Game Over");
-
     else
         printf("You Win");
 
