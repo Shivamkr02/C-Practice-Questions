@@ -12,7 +12,6 @@ int main() {
             sum1 += i;
         }
     }
-
     // Calculate sum of proper divisors of num2
     for (i = 1; i < num2; i++) {
         if (num2 % i == 0) {
